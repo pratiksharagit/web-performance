@@ -44,7 +44,7 @@ To view the portfolio website download all the files and open index.html in your
 
 To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher.
 
-####Optimizing the Scrolling
+#### Optimizing the Scrolling
 
 I made the following changes in order to optimize the scrolling:
 
@@ -54,7 +54,7 @@ I made the following changes in order to optimize the scrolling:
 4. Cached the needed DOM elements so that the brower isn't querying the DOM every time the for loops are iterated in the updatePositions function
 
 
-####Optimizing the Pizza Resizing
+#### Optimizing the Pizza Resizing
 
 I made the following changes to optimize the pizza resizing:
 
