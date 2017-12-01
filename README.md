@@ -2,6 +2,10 @@
 
 We have a task to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques we have came across in the [Critical Rendering Path course](https://www.udacity.com/course/ud884) and performance-related issues so that it achieves a target PageSpeed score of 90 and runs at 60 frames per second.
 
+###Result
+[page speed score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fpratiksharagit.github.io%2Fweb-performance%2F&tab=desktop)
+
+
 ### Getting started
 
 Some useful tips to help you get started:
