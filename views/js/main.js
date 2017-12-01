@@ -509,7 +509,7 @@ function updatePositions() {
 
 // iterates and changes the pizza elements translateX property in proportion to scrolling
   for (var i = 0; i < items.length; i++) {
-  transX = Math.sin(phasecount + (i % 5)) * 100 + 'px';
+  var transX = Math.sin(phasecount + (i % 5)) * 100 + 'px';
    items[i].style.transform = 'translateX(' + transX + ')';
   }
 
