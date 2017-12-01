@@ -24,6 +24,8 @@
       a:visited { color: #61C; }
       a:focus { outline: thin dotted; }
       a:hover, a:active { color: #c00; outline: 0; }
+      b, strong { font-weight: bold; }
+      pre, code { font-family: monospace, monospace; font-size: 1em; }
       ul, ol { margin: 1em 0; padding: 0 0 0 20px; }
       img { border: 0; max-width: 100%;}
       body { background: #fff; }
@@ -50,14 +52,16 @@
         body { font-size: 12px;}
         header p { padding-left: 4.5em;}
       }
+
+      @media print{*{background:0 0!important;color:#000!important;text-shadow:none!important;filter:none!important;-ms-filter:none!important}a,a:visited{color:#444!important;text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}img,tr{page-break-inside:avoid}img{max-width:100%!important}@page{margin:.5cm}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
     </style>
 
     <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
     <!--<link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">-->
 
-    <link href="css/print.css" rel="stylesheet" media="print">
+    <!--<link href="css/print.css" rel="stylesheet" media="print">
    
-    <!--<script async src="js/perfmatters.js" async></script>-->
+    <script async src="js/perfmatters.js" async></script>-->
 
   </head>
 
